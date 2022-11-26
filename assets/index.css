@@ -1082,6 +1082,9 @@ body.lock{
         height: 420px;
     }
     /*benefit*/
+    .benefit{
+        height: 1400px;
+    }
     .benefit-card-text{
         width: 250px;
     }
