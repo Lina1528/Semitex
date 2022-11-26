@@ -205,9 +205,6 @@ h1{
 .garant-icon{
     background: url('../assets/img/header/lock.svg') no-repeat;
     background-size: contain;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     width: 32px;
     height: 32px;
     margin-right: 3px;
