@@ -6,8 +6,6 @@ body{
     max-width: calc( 100% - 33.3%);
     margin: 0 auto;
 }
-
-
 .wrapper{
     background: url('../assets/img/header/bg-lines.svg') no-repeat, 
                 url('../assets/img/header/headerBG.svg') no-repeat;
@@ -15,13 +13,6 @@ body{
     height: 850px;
     background-size: contain;
 }
-/* .header-inner{
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 90px;
-    padding-top: 56px;
-} */
 .nav{
     margin-left: 62px;
     width: 90%;
@@ -31,7 +22,6 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 .nav-link{
     color: #fff;
@@ -58,10 +48,8 @@ body{
     line-height: 22px;
     margin-left: 10px;
 }
-
 /*Burger-menu*/
 .header{
-    /* position: fixed; */
     width: 100%;
     top: 0;
     left: 0;
@@ -70,24 +58,10 @@ body{
 }
 .header.fixed{
     position: fixed;
-    
     background: rgb(0,29,78);
     background: linear-gradient(0deg, rgba(0,29,78,1) 0%, rgba(0,112,255,1) 83%);
 }
-/* .header::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    /* background-color: #969AF7; */
-    /* z-index: 3;
-} */ 
-
 .header-inner{
-    /* padding-top: 40px;
-    padding-bottom: 15px; */
     position: relative;
     padding-top: 15px;
     display: flex;
@@ -102,10 +76,6 @@ body{
     position: relative;
 }
 /*INTRO*/
-/* .intro{
-    padding-top: 115px;
-} */
-
 .header-text{
     width: 70%;
 }
@@ -115,7 +85,6 @@ h1{
     text-transform: uppercase;
     line-height: 69px;
     color: #fff;
-   
 }
 .light-white{
     font-size: 48px;
@@ -135,7 +104,6 @@ h1{
     display: flex;
     flex-direction: column;
 }
-
 .header-discribe{
     margin-top: 5px;
     color: #969AF7;
@@ -161,21 +129,16 @@ h1{
     margin-top: 0;
 }
 .header-form{
-    /* margin-left: 50px; */
     background-color: #fff;
     border-radius: 10px;
     width: 25%; 
     max-height: 500px;
 }
-
 .form-title{
     font-weight: 700;
     font-size: 19px;
     line-height: 27px;
     color: #fff;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     text-align: center;
     width: 100%;
     background-color: #6A32B4;
@@ -259,16 +222,8 @@ h1{
     line-height: 16px;
     color: #C0C0C0;
 }
-
-
-
-
-
-
-
 /*BENEFIT*/
 .benefit{
-    /* margin-top: 85px; */
     height: 1270px;
 }
 .section-benefit-title{
@@ -297,7 +252,6 @@ h1{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
 }
 .benefit-item{
     width: 370px;
@@ -329,7 +283,6 @@ h1{
 .benefit-cards-bottom{
     margin-top: 32px;
 }
-
 /*manufacturers*/
 .manufacturers{
     background: url('../assets/img/manufacturers/dots.svg') no-repeat,
@@ -347,7 +300,6 @@ h1{
     color: #fff;
     padding-top: 110px;
 }
-
 .manufacturers-text{
     font-weight: 400;
     font-size: 20px;
@@ -355,24 +307,7 @@ h1{
     color: #fff;
     margin: 0 auto;
 }
-
 /*SLIDER*/
-/* .sl{
-    margin-top: 57px;
-    margin-bottom: 42px;
-    width: 100%;
-    position: relative;
-}
-.sl-slide{
-    width: 241px !important;
-    margin: 0 15px;
-    height: 174px;
-    background-color: #fff;
-    border-radius: 10px;
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-} */
 .sl{
     width: 100%;
     position: relative;
@@ -380,7 +315,6 @@ h1{
     margin-bottom: 42px;
 }
 .sl-slide{    
-
     width: 241px;
     margin: 0 15px;
     height: 174px;
@@ -390,10 +324,6 @@ h1{
     justify-content: center !important;
     align-items: center !important;
 }
-
-
-
-
 .prev-arrow{
     padding: 13px 16px 13px 15px;
     border-radius: 50%;
@@ -410,13 +340,6 @@ h1{
     right: -71px;
     top: 75px;
 }
-
-
-
-
-
-
-
 /*scheme*/
 .scheme{
     background: url('../assets/img/scheme/schemeBG.svg') no-repeat;
@@ -431,7 +354,6 @@ h1{
     text-align: center;
     color: #111111;
     margin-bottom: 24px;
-    
 }
 .scheme-text{
     font-weight: 400;
@@ -493,7 +415,6 @@ h1{
     font-weight: 700;
     font-size: 17px;
     line-height: 25px;
-
 }
 .scheme-card-discribe{
     font-weight: 400;
@@ -503,13 +424,11 @@ h1{
     padding-right: 38px;
     margin-top: 28px;
 }
-
 .card-item2{
     background: url('../assets/img/scheme/trngle.png') right bottom no-repeat,
                 url('../assets/img/scheme/02.png') no-repeat;
     width: 460px;
     margin-left: -10px;
-    /* z-index: 5; */
 }
 .card-item2 .scheme-card-discribe{
     margin-top: 10px;
@@ -527,7 +446,6 @@ h1{
     display: flex;
     margin-top: -5px;
 }
-
 .card-item6{
     background: url('../assets/img/scheme/trngle.png') right bottom no-repeat,
                 url('../assets/img/scheme/06.png') no-repeat;
@@ -562,20 +480,13 @@ h1{
     border-radius: 10px;
     
 }
-
-
-
 /*FAQ*/
 .faq{
     background: url('../assets/img/FAQ/BG2.png') no-repeat;
     width: 100%;
-    /* height: 95%; */
     height:max-content;
     margin-top: -5%; 
     background-size: cover;
-    /* background-size: contain; */
-    /* background-repeat: repeat-y; */
-    /* transform: rotate(-90deg); */
 } 
 .faq-title{
     font-weight: 700;
@@ -585,11 +496,9 @@ h1{
     color: #fff;
     padding-top: 120px;
 }
-
 .faq-list{
     max-width: 100%;
     margin-top: 40px;
-    /* margin-bottom: 100px;  */
 }
 .faq-item{
     background-color: #fff;
@@ -628,12 +537,9 @@ h1{
     padding-bottom: 30px;
     padding-left: 53px;
     width: 100%;
-    /* background: linear-gradient(#fff,#C0C3FF); */
     background: rgb(191,194,255);
     background: linear-gradient(0deg, rgba(191,194,255,1) 0%, rgba(255,255,255,1) 100%);
-  /* background-color: red; */
     border-radius: 10px;
-    /* transition: all 3s ease; */
     position: relative;
 }
 .faq-item-title::after{
@@ -646,12 +552,9 @@ h1{
     right: 35px;
     top: calc(50% - 22px);
 }
-
 .faq-item-title:hover{
-    /* background: linear-gradient( #9498F7, #6C71ED); */
     background: rgb(105,110,236);
     background: linear-gradient(0deg, rgba(105,110,236,1) 0%, rgba(150,154,247,1) 100%);
-/* background-color: #fff; */
 }
 .faq-item-title:hover.faq-item-title::after{
     background-color:rgb(187, 191, 255);
@@ -664,17 +567,10 @@ h1{
     line-height: 27px;
     padding: 39px 43px 45px 53px;
 }
-
-
 .empty{
     width: 100%;
     height: 100px;
 }
-
-
-
-
-
 /*Footer*/
 footer{
     width: 100%;
@@ -709,13 +605,8 @@ footer{
     background-color: rgba(105,110,236,1);
 }
 
-
-
-
-
-/*Media*/
+/*BREACKPOINTS*/
 @media (max-width: 1800px){
-    
 /*Burger-menu*/
 body.lock{
     overflow: hidden;
@@ -775,12 +666,8 @@ body.lock{
         left: 0;
         width: 100%;
         height: 100%;
-
-
-        
-    background: rgb(9,12,100);
-    background: linear-gradient(0deg, rgba(9,12,100,1) 16%, rgba(56,34,224,1) 76%);
-
+        background: rgb(9,12,100);
+        background: linear-gradient(0deg, rgba(9,12,100,1) 16%, rgba(56,34,224,1) 76%);
         padding-top: 100px;
         transition: all .3s ease 0s;
         overflow: auto;
@@ -795,7 +682,6 @@ body.lock{
         flex-direction: column;
         justify-content: space-between;
         align-items: flex-start; 
-        /* margin-left: 17%; */
         padding-top: 2%;
     }
     .nav-link{
@@ -817,9 +703,6 @@ body.lock{
         font-size: 26px;
         margin-left: 24px;
     }
-    /* .wrapper{
-        height: 80%;
-    } */
     .header-content{
         margin-top: 50px;
     }
@@ -835,18 +718,15 @@ body.lock{
     .header-discribe{
         font-size: 19px;
     }
+    /*benefit*/
     .benefit{
         margin-top: 0;
     }
-    /* .manufacturers{
-        height: 63%;
-    } */
+    /*slider*/
     .sl{
         height: 175px;
     }
-    /* .scheme{
-        height: 88%;
-    } */
+    /*scheme*/
     .scheme-card-item{
         width: 350px;
         border-radius: 10px;
@@ -870,8 +750,8 @@ body.lock{
     }
 }
 
-
 @media (max-width: 1665px){
+    /*wrapper*/
     .wrapper{
         height: 970px;
         background-size: cover;
@@ -882,6 +762,7 @@ body.lock{
     .header-form{
         width: 30%;
     }
+    /*benefit*/
     .benefit{
         height: 1050px;
         margin-top: 10px;
@@ -892,6 +773,7 @@ body.lock{
     .benefit-img{
         margin-left: 80px;
     }
+    /*manufacturers*/
     .manufacturers{
         height: 620px;
     } 
@@ -901,6 +783,7 @@ body.lock{
     .manufacturers-text{
         text-shadow: #000 1px 1px 2px;
     }
+    /*scheme*/
     .scheme{
         height: 1440px;
     } 
@@ -946,15 +829,18 @@ body.lock{
     .card-item5{
         margin: 10px auto;
     }
+    /*faq*/
     .faq{
         margin-top: -100px;
     } 
+    /*footer*/
     .footer-none{
         display: none;
     }    
 }
 
 @media (max-width: 1400px){
+    /*wrapper*/
     .wrapper{
         height: 650px;
     } 
@@ -1000,6 +886,7 @@ body.lock{
         font-size: 16px;
         line-height: 22px;
     }
+    /*benefit*/
     .benefit{
         height: 1620px;
     }
@@ -1024,17 +911,14 @@ body.lock{
     .benefit-discribe{
         margin-bottom: 0;
     }
+    /*slider*/
     .sl{
         margin-top: 28px;
         margin-bottom: 20px;
     }
- 
-    /* .manufacturers-text{
-        text-shadow: #000 1px 1px 2px;
-    } */
+    /*scheme*/
     .scheme{
         height: 1490px;
-        
     } 
     .scheme-card-item{
         height: 176px;
@@ -1046,14 +930,9 @@ body.lock{
     .scheme-card-bottom .card-item5 .scheme-number, .scheme-card-bottom .card-item4 .scheme-number{
         margin-left: 38px;
     }
-    /* .faq{
-        margin-top: -8%;
-    } */
 }
 @media (max-width: 1110px){
-    /* .wrapper{
-        height: 50%;
-    } */
+    /*wrapper*/
     .container,
     .container-nav{
         max-width: calc( 100% - 15%);
@@ -1063,6 +942,7 @@ body.lock{
         margin-left: 20px;
         margin-right: 15px;
     }
+    /*slider*/
     .sl-slide{
         margin: 0 7px;
     }
@@ -1078,26 +958,16 @@ body.lock{
         border-radius: 50%;
         background-color: #fff;
     }
-    /* .manufacturers{
-        height: 50%;
-    } */
+    /*manufacturers*/
     .manufacturers-text{
         padding-top: 15px;
     }
-    /* .scheme{
-        height: 120%;
-    } */
-    /* .faq{
-        margin-top: -14%;
-    } */
 }
 @media (max-width: 860px){
+    /*wrapper*/
     .nav-link{
         font-size: 16px;
     }
-    /* .wrapper{
-        height: 70%;
-    } */
     h1{
         font-size: 34px;
         line-height: 40px;
@@ -1142,6 +1012,7 @@ body.lock{
         font-size: 10px;
         line-height: 11px;
     }
+    /*benefit*/
     .section-benefit-title{
         font-size: 40px;
     }
@@ -1151,11 +1022,13 @@ body.lock{
     .benefit-img{
         margin-left: 0;
     }
+    /*manufacturers*/
     .manufacturers-text{
         text-shadow: none;
         font-size: 16px;
         color: #fff;
     }
+    /*scheme*/
     .scheme-title{
         font-size: 40px;
     }
@@ -1165,9 +1038,7 @@ body.lock{
     .scheme-card-discribe{
         font-size: 16px;
     }
-    /* .faq{
-        margin-top: -12%;
-    } */
+    /*faq*/
     .faq-title{
         font-size: 40px;
     }
@@ -1186,6 +1057,7 @@ body.lock{
     }
 }
 @media (max-width: 752px){
+    /*wrapper*/
     .wrapper {
         height: 750px;
     }
@@ -1212,6 +1084,7 @@ body.lock{
         width: 40%;
         height: 420px;
     }
+    /*benefit*/
     .benefit-card-text{
         width: 250px;
     }
@@ -1227,9 +1100,7 @@ body.lock{
     .benefit-img{
         width: 120px;
     }
-    /* .manufacturers{
-        height: 75%;
-    } */
+    /*scheme*/
     .scheme-card-bottom .card-item5 .scheme-number, .scheme-card-bottom .card-item4 .scheme-number,
     .scheme-number{
         margin-top: 14px;
@@ -1253,9 +1124,7 @@ body.lock{
     {
         font-size: 28px;
     }
-    /* .faq{
-        margin-top: -15%;
-    } */
+    /*faq*/
     .faq-list{
         margin-top: 26px;
     }
@@ -1279,12 +1148,14 @@ body.lock{
         line-height: 22px;
         padding: 24px 32px 28px 28px;
     }
+    /*footer*/
     .footer-item a{
         font-size: 14px;
         font-weight: 600;
     }
 }
 @media (max-width: 580px){
+    /*wrapper*/
     .wrapper{
         height: 870px;
     } 
@@ -1365,6 +1236,7 @@ body.lock{
     .garant-text{
         font-size: 12px;
     }
+    /*benefit*/
     .benefit{
         height: 1230px;
     }
@@ -1386,9 +1258,11 @@ body.lock{
     .benefit-img{
         width: 96px;
     }
+    /*manufacturers*/
     .manufacturers{
         height: 690px;
     }
+    /*scheme*/
     .scheme{
         height: 1330px;
     } 
@@ -1408,6 +1282,7 @@ body.lock{
     .scheme-card-item{
         height: 158px;
     }
+    /*faq*/
     .faq-text{
         font-size: 12px;
         line-height: 20px;
@@ -1418,6 +1293,7 @@ body.lock{
     .faq-input:checked ~ .faq-item-title::after{
         padding: 8px 10px 11px 10px;
     }
+    /*footer*/
     .footer-item img{
         width: 110px;
     }
@@ -1426,10 +1302,13 @@ body.lock{
         font-size: 12px;
     }
 }
+
 @media (max-width: 440px){
+    /*wrapper*/
     .wrapper {
         height: 980px;
     }
+    /*benefit*/
     .benefit-title{
         font-size: 14px;
     }
@@ -1438,7 +1317,6 @@ body.lock{
     }
     .benefit-img{
         width: 70px;
-        /* margin-left: 5px; */
     }
     .benefit-card-text{
         width: 180px;
@@ -1446,10 +1324,12 @@ body.lock{
     .application{
         padding: 18px 40px 18px 38px;
     }
+    /*manufacturers*/
     .manufacturers{
         margin-top: 0;
         height: 830px;
     }
+    /*scheme*/
     .scheme {
         height: 1700px;
     }
@@ -1459,6 +1339,7 @@ body.lock{
     .empty{
         height: 50px;
     }
+    /*footer*/
     .footer-item a{
         font-size: 12px;
         padding: 16px 18px 14px 16px;
